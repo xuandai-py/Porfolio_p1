@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ports",
+  "info": {
+    "name": "port",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company": {
+      "type": "string",
+      "default": " ",
+      "required": true
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.job-description",
+      "required": true
+    }
+  }
+}

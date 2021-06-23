@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_description_job_descriptions",
+  "info": {
+    "name": "job_description",
+    "icon": "bong",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
